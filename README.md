@@ -1,1 +1,4 @@
-# knowledge
+##2016 技术学习路线
+
+1. es6 春节期间学完
+2. 熟悉webpack boqii框架 春节期完成
