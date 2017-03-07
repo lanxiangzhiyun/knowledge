@@ -1,5 +1,7 @@
 ####作用域
+
 词法作用域：编译阶段确定（欺骗词法作用域 eval with）
+```
 function foo(str){
   "use strict"
   eval(str)
@@ -15,7 +17,9 @@ var o1 = {a:3}
 var o2 = {b:3}
 foo(o1)
 foo(o2)
-块作用域 with try/catch let const
+```
+
+### 块作用域 with try/catch let const
 for (let i=0; i<10; i++){
   console.log(i)
 }
