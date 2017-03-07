@@ -20,6 +20,7 @@ foo(o2)
 ```
 
 ### 块作用域 with try/catch let const
+```
 for (let i=0; i<10; i++){
   console.log(i)
 }
@@ -35,8 +36,11 @@ try{throw 2}catch(a){
   console.log(a) // 2
 }
 console.log(a) // ReferenceError
-提升
-定义提升 函数优先
+```
+
+### 提升
+#### 定义提升 函数优先
+```
 foo() // TypeError
 bar() // ReferenceError
 var foo = function bar(){}
@@ -64,3 +68,4 @@ if (true){
 }else{
   function foo(){console.log(2)}
 }
+```
