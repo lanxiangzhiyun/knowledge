@@ -1,1 +1,2 @@
 1.Angular 和 Vue 用了 track by $index 以后都比 React 快
+2.computed 计算属性有缓存 watch处理异步情况
